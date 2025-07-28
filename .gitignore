@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyCharm specific
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code (if you ever open it there too)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and debugging
+*.log
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Model and data artifacts (optional)
+*.onnx
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.pb
+*.npz
+*.npy
+
+# Credentials (be careful with these)
+.env
+.env.*
+
+# System files
+*.swp
+*.bak
+*.tmp
