@@ -2,9 +2,9 @@
 
 > cpu only
 
-pip install insightface opencv-python numpy onnxruntime
+``bash pip install insightface opencv-python numpy onnxruntime``
 
 > cpu and gpu
 
-pip install insightface opencv-python numpy onnxruntime-gpu
+`` bash pip install insightface opencv-python numpy onnxruntime-gpu``
 
