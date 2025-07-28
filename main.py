@@ -41,7 +41,9 @@ def compare_faces(img_path1, img_path2):
     emb2 = get_embedding(img2)
 
     similarity = cosine_similarity(emb1, emb2)
-    confidence = round(((similarity + 1) / 2) * 100, 2)  # optional
+
+    #determine confidence for current comparison
+    confidence = round(((similarity + 1) / 2) * 100, 2)
 
     print(f"\nCosine Similarity: {similarity:.4f}")
     print(f"Confidence Score: {confidence:.2f}%")
